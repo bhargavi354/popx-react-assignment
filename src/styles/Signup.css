@@ -1,0 +1,61 @@
+.signup-container {
+  width: 375px;
+  min-height: 812px;
+  margin: 0 auto;
+  background: #f7f8f9;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.signup-card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.signup-card input[type="text"],
+.signup-card input[type="email"],
+.signup-card input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.agency {
+  margin-top: 10px;
+}
+
+.agency p {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.agency-options {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.agency-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.signup-card button {
+  width: 100%;
+  background: #6c25ff;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
